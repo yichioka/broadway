@@ -1,0 +1,43 @@
+.header {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background-image: url("file:///Users/user/Desktop/Codecademy/Broadway/resources/images/the-flatiron-building.png") ;
+  background-size:contain;
+
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.header p {
+  font-size: 18px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.Information .Introduction {
+  text-align: center;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.Process p {
+  font-family: Helvetica;
+  font-size: 14px;
+}
