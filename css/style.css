@@ -1,43 +1,59 @@
-.header {
-  font-family: Helvetica;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  background-image: url("file:///Users/user/Desktop/Codecademy/Broadway/resources/images/the-flatiron-building.png") ;
-  background-size:contain;
 
+.body {
+  font-family: "Helvetica" sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+
+.hero {
+  color: white;
+  text-align: center;
+  background-image: url("file:///Users/user/Desktop/Codecademy/Broadway/resources/images/the-flatiron-building.png");
+}
+
+.hero h1 {
   font-size: 70px;
 }
 
-.header p {
+.btn-nav {
   font-size: 18px;
   color: white;
 }
 
-a {
-  color: white;
-}
 
-.Information .Introduction {
+
+.supporting {
   text-align: center;
 }
 
-h2 {
+.supporting h2 {
   font-family: Helvetica;
   font-weight: bold;
   font-size: 32px;
 }
 
-h3 {
+.supporting h3 {
   font-family: Helvetica;
   font-weight: bold;
   font-size: 23px;
 }
 
-.Process p {
+.supporting-item p {
   font-family: Helvetica;
   font-size: 14px;
+}
+
+.hero h2 {
+  font-size: 23px;
+}
+
+.footer {
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
 }
